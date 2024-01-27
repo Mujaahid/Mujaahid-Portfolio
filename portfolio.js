@@ -1,0 +1,10 @@
+$(".resumeIcon").click(function(e){
+    $(".resume-wrapper").fadeIn(600);
+    e.stopPropagation();
+});
+$(".resume-modal").click(function(e){
+    e.stopPropagation();
+});
+$('.resume-wrapper').click(function(){
+    $(".resume-wrapper").fadeOut(600);
+});
